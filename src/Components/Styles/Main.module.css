@@ -1,0 +1,35 @@
+.bodyContainer{
+    /* position: relative;
+    top: 0;
+    left: 24%; */
+    width: 80%;
+    height: 100vh;
+    /* background-color: #136a8a; */
+    overflow: hidden;
+    background: #757F9A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #D7DDE8, #757F9A);  
+background: linear-gradient(to top, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+button{
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid salmon;
+    background-color: salmon;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+button:hover{
+    background-color: darkred;
+    color: white;
+    border-color: darkred;
+}
+
+
+@media screen and (max-width: 900px) {
+    .bodyContainer{
+        width: 100%;
+        padding-left: auto;
+    }
+}

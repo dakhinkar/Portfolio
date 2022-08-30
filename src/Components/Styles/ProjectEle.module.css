@@ -1,0 +1,66 @@
+.projectContainer{
+    height: 100vh;
+    overflow-y: auto;
+}
+.subHeading{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+.projectElement{
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+.selected{
+    background-color: lightgray;
+}
+.title{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.title span{
+    margin-right: 10px;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+.title span svg{
+    font-weight: bold;
+    cursor: pointer;
+}
+.details{
+    border-top: 2px solid black;
+}
+.techStack{
+    font-size: 0.75;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.techDetails{
+    margin-bottom: 15px;
+}
+.stack{
+    margin-left: 15px;
+}
+.action{
+    margin: 15px 0;
+    /* border-top: 2px solid black; */
+}
+.action a{
+    margin: 18px;
+    padding: 5px; 
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border: 2px solid salmon ;
+    border-radius: 8px;
+}
+
+.action a:hover{
+    background-color: darkred;
+    border: 2px solid darkred
+}

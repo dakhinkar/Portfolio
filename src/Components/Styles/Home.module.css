@@ -1,0 +1,25 @@
+.homeContainer{
+    width: 95%;
+    margin: 0 2%;
+    margin-top: 35%;
+    overflow: hidden;
+    /* background-image: url('../Img/portfolio3_r.jpg'); */
+}
+.action a{
+    /* margin: 18px; */
+    padding: 5px; 
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border: 2px solid salmon ;
+    border-radius: 8px;
+}
+.action a:hover{
+    background-color: darkred;
+    border-color: darkred;
+}
+.action {
+    margin: 10px;
+}

@@ -1,0 +1,73 @@
+.aboutMeContainer{
+    width: 100%;
+    height: 100vh;
+    margin: auto 2%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-bottom: 2%;
+}
+.aboutMe{
+    margin-left: 10px;
+    margin-right: 20px;
+    text-align: left;
+}
+.acadmicDetails{
+    overflow-x: auto;
+}
+.heading {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+.subHeading{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 0.5rem;
+}
+table{
+    overflow-x: scroll ;
+}
+table, th, td{
+    word-wrap: break-word;
+    border: 1px solid black;
+    padding: 0.7rem;
+    border-collapse: collapse;
+}
+
+.skillsList{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+}
+.cert{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+.cert section{
+    display: flex;
+    flex-direction: column;
+}
+.cert section a{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 900px) {
+    .aboutMeContainer{
+        width: 100vw;
+    }
+      
+}
+@media screen and (max-width: 900px) {
+    table,
+        th,
+        td {
+            padding: 0.2rem;
+        }
+        table{
+            margin-right: 10px;
+        }
+}

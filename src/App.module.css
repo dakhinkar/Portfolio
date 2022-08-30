@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    
+    /* background-image: url('./Components//Slider/bodyBG.jpg');
+    background-repeat: no-repeat;
+    background-size: 70% 100% ;
+    background-position: top right;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.5); */
+}
